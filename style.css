@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+* {
+    font-family: 'DynaPuff', 'cursive';
+    font-size: 95%;
+    outline: none;
+}
+
+main{
+    padding: 4%;
+    width: 50%;
+    left: -50%;
+    right: 50%;
+    top: -50%;
+    transform: translate(50%);
+    display: flex;
+}
+
+body {
+    height: 12cm;
+    background: linear-gradient(to right, rgb(156, 60, 165) ,rgb(105, 18, 187));
+}
+
+.formulario {
+    position: relative;
+    background-color: rgb(238, 223, 15);
+    border-radius: 1em;
+    width: 26rem;
+    height: 24rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h1{
+    font-size: 120%;
+    text-align: center;
+    color: rgb(105, 18, 187);
+    font-size: large;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.camp {
+    height: 30%;
+    width: 100%;
+    left: 20em;
+    border-radius: 10%;
+    border-color: #000;
+}
+
+.botao:hover{
+    background: linear-gradient(to right, rgb(105, 18, 187) ,rgb(156, 60, 165));
+}    
+.botao{
+    border-radius: 23em;
+    height: 30%;
+    padding: 1%;
+    width: 53%;
+    left: -53%;
+    top: -50%;
+    transform: translate(48%);
+    background: linear-gradient(to right, rgb(156, 60, 165) ,rgb(105, 18, 187));
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    left: 38%;
+    color: rgb(238, 223, 15);
+}
+
+a{
+    color: #ffff;
+}
+
+a:hover{
+    color: #000;
+}
